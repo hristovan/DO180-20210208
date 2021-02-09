@@ -1,5 +1,5 @@
 # Here is a Dockerfile demo
-FROM ubi7/ubi:7.8
+FROM registry.access.redhat.com/ubi7/ubi:7.8
 
 MAINTAINER "Vicente Jimenez <vjjmiras@redhat.com>"
 
