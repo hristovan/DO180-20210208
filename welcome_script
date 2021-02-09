@@ -1,0 +1,1 @@
+echo -e "Welcome to Course ${COURSE_CODE}: ${COURSE_TITLE} \n\nYour Instructor is ${INSTRUCTOR}\n"
