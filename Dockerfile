@@ -55,7 +55,7 @@ RUN  chgrp -R 0 /var/www/html /run/httpd /var/log/httpd \
      chmod  g+x,a-w /usr/local/bin/container-entrypoint
     
 # The first label will be releveant for OpenShift. The second isn't
-LABEL io.openshift.expose-services=8080 \
+LABEL io.openshift.expose-services="8080:http" \
       io.openshift.instructor='Vicente Jimenez <vjjmiras@redhat.com>'
 
 EXPOSE 8080
